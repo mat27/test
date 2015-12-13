@@ -30,7 +30,7 @@ bool CGUITexture_Impl::LoadFromFile(String strFile, String strDirectory)
 	// Does the file not exist?
 	if( !SharedUtility::Exists( strFile.Get() ) )
 		return false;
-
+	/*
 	// Try and load the file
 	try
 	{
@@ -39,7 +39,7 @@ bool CGUITexture_Impl::LoadFromFile(String strFile, String strDirectory)
 	catch( CEGUI::Exception )
 	{
 		return false;
-	}
+	}*/
 
 	return true;
 }

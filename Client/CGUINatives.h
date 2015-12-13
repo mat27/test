@@ -53,8 +53,7 @@ private:
 	static	SQInteger		IsCursorShowing						( SQVM * pVM );
 	static	SQInteger		IsMainMenuShowing					( SQVM * pVM );
 
-	static	SQInteger		
-		( SQVM * pVM );
+	static	SQInteger		CreateElement						( SQVM * pVM );
 	static	SQInteger		DestroyElement						( SQVM * pVM );
 	static	SQInteger		GuiSetPosition						( SQVM * pVM );
 	static	SQInteger		GuiGetPosition						( SQVM * pVM );

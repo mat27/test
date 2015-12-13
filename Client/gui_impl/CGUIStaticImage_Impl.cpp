@@ -68,11 +68,11 @@ bool CGUIStaticImage_Impl::LoadFromFile( String strFile, String strDirectory )
 		// Mark as texture loaded
 		m_bCreatedTexture = true;
 	}
-
+	/*
 	// Try and load the texture
 	if( !m_pTexture->LoadFromFile( strFile ) )
 		return false;
-
+	*/
 	// Load the image
 	return LoadFromTexture( m_pTexture );
 }
